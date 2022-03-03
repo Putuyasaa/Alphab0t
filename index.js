@@ -185,7 +185,7 @@ typemenu = 'document'
 img = setting.img
 baper = setting.ownername
 apiku = 'https://zeeone-ofc.github.io/'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+gc_wa_lu = 'Gw blm punya gc' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -4145,7 +4145,7 @@ mentions(`Perintah di terima, Add: @${mentioned[0].split('@')[0]}`, mentioned, t
 alpha.groupAdd(from, mentioned)
 break
 
-case 'kick':
+case 'kiick':
 if (!isGroup) return reply(lang.onlygc())
 					if (!isGroupAdmins) return reply(lang.onlygcAdmin())
 					if (!isBotGroupAdmins) return reply(lang.botNotAdm())
